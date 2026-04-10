@@ -1,0 +1,107 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import TimeLineElement from "../components/cv/TimeLine.astro";
+---
+
+<BaseLayout title="CV" sideBarActiveItemID="cv">
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Profile</div>
+  </div>
+
+  <div class="mb-10 text-justify">
+    Strategy and evaluation leader with 15+ years of experience leading impact measurement for major non-profits.
+    Expert in building organization-wide measurement frameworks and culturally responsive evaluation systems.
+    Proven leader in translating complex data into actionable insights to drive organizational strategy and growth.
+  </div>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Education</div>
+  </div>
+
+  <div class="time-line-container grid gap-4 mb-10">
+    <TimeLineElement
+      title="Ph.D. in Evaluation, Measurement, and Research (in progress)"
+      subtitle="September 2023 – Present at Western Michigan University, Remote"
+    />
+    <TimeLineElement
+      title="M.A. in International Development Studies"
+      subtitle="2007 to 2009 at The George Washington University, Elliott School of International Affairs, Washington, D.C."
+    />
+    <TimeLineElement
+      title="B.A. in International Studies — Highest Honors, Departmental Distinction"
+      subtitle="1999 to 2003 at Kenyon College, Gambier, OH"
+    />
+  </div>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Experience</div>
+  </div>
+
+  <div class="time-line-container mb-10">
+    <TimeLineElement
+      title="Director of Evaluation"
+      subtitle="May 2024 – February 2026 at AARP Foundation, Washington, D.C."
+    >
+      Led a team of four evaluators and data analysts providing internal teams with technical assistance in evaluation study design, indicator development, and learning activities. Drove analyses and reporting on program performance data for executive leadership. Led development of measurement frameworks for the Foundation's 2030 strategy, including theories of change, logic models, and indicators across program portfolios. Oversaw a quasi-experimental evaluation of Experience Corps' volunteer tutoring model on K-3 student literacy outcomes.
+    </TimeLineElement>
+    <TimeLineElement
+      title="Senior Technical Advisor, Monitoring, Evaluation, and Learning"
+      subtitle="September 2013 – 2024 at Center for Applied Learning and Impact (CALI), IREX, Washington, D.C."
+    >
+      Lead architect of a centralized information management system for gathering, managing, and reporting organization-wide data. Co-led the design and implementation of a cross-program evaluation of IREX's 2025 strategy. Directed large-scale media audience research for a $26 million independent media program in Syria using mixed methods. Conducted 15+ professional development workshops elevating staff expertise in MEL practices.
+    </TimeLineElement>
+    <TimeLineElement
+      title="Team Lead, Ford Global Fellowship Learning & Evaluation"
+      subtitle="January 2020 – December 2023 at IREX, Washington, D.C."
+    >
+      Technical and strategic lead for the hybrid developmental evaluation of the Ford Foundation Global Fellowship program, a flagship program for social justice leaders. Managed a $1 million budget and a team of MEL experts in a grounded theory study of power-sharing and program co-design. Designed and led implementation of an Outcome Harvesting evaluation.
+    </TimeLineElement>
+    <TimeLineElement
+      title="Field Technical Advisor, Pact Zimbabwe"
+      subtitle="January 2013 – September 2013 at Pact, Inc., Harare, Zimbabwe"
+    >
+      Provided training and mentoring to staff and grantees in organizational capacity assessments, database management, and GIS mapping. Developed logical frameworks, theories of change, and M&E plans for local grantees focused on advocacy, community development, and human rights.
+    </TimeLineElement>
+    <TimeLineElement
+      title="Program Officer"
+      subtitle="May 2008 – December 2012 at Pact, Inc., Washington, D.C."
+    >
+      Founded a Pact Community of Practice for ICT and created an intranet knowledge-sharing site. Provided training in ICT, project design, and program M&E to field offices and HQ staff. Co-designed Organization Capacity Assessment (OCA) and Organizational Network Analysis (ONA) methods for an independent media strengthening project in Afghanistan.
+    </TimeLineElement>
+  </div>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Certifications & Training</div>
+  </div>
+
+  <ul class="list-disc mx-6 mb-10 grid gap-2">
+    <li>Applied Multiple Regression (2016) — The Evaluation Institute</li>
+    <li>Program Information Management (2013) — PM4Dev</li>
+    <li>Training of Trainers (2011) — InsideNGO</li>
+  </ul>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Skills</div>
+  </div>
+
+  <ul class="list-disc md:columns-5 columns-2 mx-6">
+    <li>Program Evaluation</li>
+    <li>MEL Frameworks</li>
+    <li>Logic Models</li>
+    <li>Theories of Change</li>
+    <li>Mixed Methods</li>
+    <li>Outcome Harvesting</li>
+    <li>Data Systems</li>
+    <li>R Programming</li>
+    <li>Power BI</li>
+    <li>GIS / Mapping</li>
+    <li>SNA Software</li>
+    <li>SPSS</li>
+    <li>Salesforce</li>
+    <li>Dedoose</li>
+    <li>Alchemer</li>
+    <li>Excel</li>
+    <li>English (Native)</li>
+    <li>French (Fluent)</li>
+  </ul>
+</BaseLayout>
